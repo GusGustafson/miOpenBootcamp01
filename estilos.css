@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+}
+
+/* Esto es un comentario */
+
+p {
+    color: orange;
+    font-size: 16pt;
+    color: aqua;
+}
+
+/* Justo arriba he repetido la propiedad "color" para la etiqueta "p" pero dándole otro valor.
+Se ignorará el primer valor ("orange") y se aplicará el segundo ("aqua"). VSCode no indica que se trate de un error*/
+
+#idPrimero {
+    color: blue;
+    font-size: 25pt;
+}
+
+.clasePrimera {
+    color: blueviolet;
+    font-size: 25pt;
+    text-transform: uppercase;
+}
